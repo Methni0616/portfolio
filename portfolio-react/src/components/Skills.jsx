@@ -1,7 +1,8 @@
 function Skills() {
   return (
-    <section>
-      <h2>Skills</h2>
+    <section id="skills" className="skills">
+      <h2 className="section-title">Skills</h2>
+
       <div className="skills-grid">
         <span>Java</span>
         <span>HTML</span>
@@ -17,3 +18,4 @@ function Skills() {
 }
 
 export default Skills;
+
