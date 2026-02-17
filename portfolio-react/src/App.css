@@ -243,13 +243,13 @@ a {
 }
 
 /* Category-specific colored dots */
-.skills-list li:nth-child(1) .skill-dot { background: #7c3aed; } /* Programming Languages */
-.skills-list li:nth-child(2) .skill-dot { background: #3b82f6; } /* Web Development */
-.skills-list li:nth-child(3) .skill-dot { background: #10b981; } /* Databases */
-.skills-list li:nth-child(4) .skill-dot { background: #f59e0b; } /* AI & ML */
-.skills-list li:nth-child(5) .skill-dot { background: #8b5cf6; } /* Tools & Frameworks */
-.skills-list li:nth-child(6) .skill-dot { background: #ef4444; } /* Soft Skills */
-.skills-list li:nth-child(7) .skill-dot { background: #14b8a6; } /* Languages */
+.skills-list li:nth-child(1) .skill-dot { background: #7c3aed; } 
+.skills-list li:nth-child(2) .skill-dot { background: #3b82f6; } 
+.skills-list li:nth-child(3) .skill-dot { background: #10b981; } 
+.skills-list li:nth-child(4) .skill-dot { background: #f59e0b; } 
+.skills-list li:nth-child(5) .skill-dot { background: #8b5cf6; } 
+.skills-list li:nth-child(6) .skill-dot { background: #ef4444; } 
+.skills-list li:nth-child(7) .skill-dot { background: #14b8a6; } 
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
