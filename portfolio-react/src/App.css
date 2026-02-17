@@ -207,10 +207,10 @@ a {
 .skills-list li {
   position: relative;
   margin-bottom: 18px;
-  padding-left: 35px; /* Space for colored dot */
+  padding-left: 35px; 
   font-size: 1.05rem;
   line-height: 1.6;
-  color: #cbd5f5; /* Light text to match theme */
+  color: #cbd5f5; 
   transition: transform 0.3s ease;
 }
 
