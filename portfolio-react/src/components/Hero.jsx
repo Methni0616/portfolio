@@ -7,20 +7,48 @@ function Hero() {
         <h4>Hello, It's Me</h4>
         <h1>Methni Manarandi</h1>
         <h3>
-          And I'm a <span>Web Developer</span>
+          And I'm a <span>Frontend Developer</span>
         </h3>
 
         <p>
-          As a Software Engineering undergraduate, I create responsive and
-          user-friendly web applications while continuously improving my skills
-          in frontend and backend development.
+          As a Software Engineering undergraduate, I specialize in building
+          modern, responsive, and user-friendly interfaces. I focus on creating
+          visually appealing and interactive web experiences while continuously
+          enhancing my skills in frontend technologies.
         </p>
 
         <div className="socials">
-          <i className="fab fa-facebook-f"></i>
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-linkedin-in"></i>
-          <i className="fab fa-github"></i>
+          <a
+            href="https://www.facebook.com/share/1B5snZFgjB/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-facebook-f"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/methu_wanigarathna"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/methni-manarandi-196465270"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+
+          <a
+            href="https://github.com/Methni0616"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github"></i>
+          </a>
         </div>
 
         <button className="btn">More About Me</button>
@@ -28,7 +56,7 @@ function Hero() {
 
       <div className="hero-right">
         <div className="glow-circle">
-          <img src={profile} alt="profile" />
+          <img src={profile} alt="Methni Manarandi" />
         </div>
       </div>
     </section>
@@ -36,3 +64,4 @@ function Hero() {
 }
 
 export default Hero;
+
