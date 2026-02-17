@@ -51,7 +51,9 @@ function Hero() {
           </a>
         </div>
 
-        <button className="btn">More About Me</button>
+        <a href="#about" className="btn">
+          More About Me
+        </a>
       </div>
 
       <div className="hero-right">
@@ -64,4 +66,3 @@ function Hero() {
 }
 
 export default Hero;
-
