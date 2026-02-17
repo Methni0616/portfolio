@@ -6,11 +6,14 @@ function Hero() {
       <div className="hero-left">
         <h4>Hello, It's Me</h4>
         <h1>Methni Manarandi</h1>
-        <h3>And I'm a <span>Web Developer</span></h3>
+        <h3>
+          And I'm a <span>Web Developer</span>
+        </h3>
 
         <p>
-          I'm a web designer with experience in creating modern,
-          responsive, and user-friendly web applications.
+          As a Software Engineering undergraduate, I create responsive and
+          user-friendly web applications while continuously improving my skills
+          in frontend and backend development.
         </p>
 
         <div className="socials">
