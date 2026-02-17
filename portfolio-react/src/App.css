@@ -198,7 +198,7 @@ a {
 }
 
 .skills-list {
-  list-style: none; /* Remove default bullets */
+  list-style: none; 
   margin: 0 auto;
   padding: 0;
   max-width: 800px;
