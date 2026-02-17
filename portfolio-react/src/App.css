@@ -156,7 +156,7 @@ a {
 }
 
 .glow-circle img {
-  width: 310px; /* increase from 280px */
+  width: 310px; 
   height: 310px;
   border-radius: 50%;
   object-fit: cover;
