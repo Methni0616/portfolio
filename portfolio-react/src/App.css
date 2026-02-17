@@ -191,29 +191,83 @@ a {
 }
 
 /* ================= SKILLS ================= */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 18px;
-  margin-top: 30px;
+.skills {
+  text-align: left; /* Align text to left */
+  padding: 80px 10%;
+  background: #020617; /* Match your dark hero/body theme */
 }
 
-.skills-grid span {
-  background: #020617;
-  border: 1px solid #38bdf8;
-  padding: 15px;
-  border-radius: 25px;
-  text-align: center;
-  color: #38bdf8;
-  transition: 0.3s;
-  cursor: default;
+.skills-list {
+  list-style: none; /* Remove default bullets */
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
 }
 
-.skills-grid span:hover {
-  background: #38bdf8;
-  color: #020617;
-  box-shadow: 0 0 15px #38bdf8;
+.skills-list li {
+  position: relative;
+  margin-bottom: 18px;
+  padding-left: 35px; /* Space for colored dot */
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #cbd5f5; /* Light text to match theme */
+  transition: transform 0.3s ease;
 }
+
+.skills-list li strong {
+  color: #38bdf8; /* Highlight category titles */
+  font-weight: 600;
+}
+
+/* Colored Dot */
+.skill-dot {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #38bdf8; /* Default dot color matches theme */
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Hover Effects */
+.skills-list li:hover {
+  transform: translateX(5px);
+}
+
+.skills-list li:hover .skill-dot {
+  transform: translateY(-50%) scale(1.2);
+  background: #a855f7; /* Glow-style hover color */
+}
+
+/* Category-specific colored dots */
+.skills-list li:nth-child(1) .skill-dot { background: #7c3aed; } /* Programming Languages */
+.skills-list li:nth-child(2) .skill-dot { background: #3b82f6; } /* Web Development */
+.skills-list li:nth-child(3) .skill-dot { background: #10b981; } /* Databases */
+.skills-list li:nth-child(4) .skill-dot { background: #f59e0b; } /* AI & ML */
+.skills-list li:nth-child(5) .skill-dot { background: #8b5cf6; } /* Tools & Frameworks */
+.skills-list li:nth-child(6) .skill-dot { background: #ef4444; } /* Soft Skills */
+.skills-list li:nth-child(7) .skill-dot { background: #14b8a6; } /* Languages */
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .skills {
+    padding: 60px 5%;
+  }
+
+  .skills-list li {
+    padding-left: 30px;
+    font-size: 1rem;
+  }
+
+  .skill-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
 
 /* ================= PROJECTS ================= */
 .projects {
