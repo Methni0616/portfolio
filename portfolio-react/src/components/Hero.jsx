@@ -1,6 +1,7 @@
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.png";
 import { motion } from "framer-motion";
 import TypingText from "./TypingText";
+import Tilt from "react-parallax-tilt";
 
 function Hero() {
   return (
@@ -27,7 +28,10 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
         >
-          And I'm a <span><TypingText /></span>
+          And I'm a{" "}
+          <span>
+            <TypingText />
+          </span>
         </motion.h3>
 
         <motion.p
@@ -35,10 +39,9 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
-          Passionate Software Engineering undergraduate at NSBM Green
-          University with hands-on experience in Full Stack Development,
-          Flutter, Firebase, React, Artificial Intelligence and Cloud-based
-          technologies.
+          Passionate Software Engineering undergraduate at NSBM Green University
+          with hands-on experience in Full Stack Development, Flutter, Firebase,
+          React, Artificial Intelligence and Cloud-based technologies.
         </motion.p>
 
         <div className="socials">
@@ -91,9 +94,17 @@ function Hero() {
       </div>
 
       <div className="hero-right">
-        <div className="glow-circle">
-          <img src={profile} alt="Methni Wanigarathna" />
-        </div>
+        <Tilt
+          tiltMaxAngleX={20}
+          tiltMaxAngleY={20}
+          perspective={1000}
+          scale={1.05}
+          transitionSpeed={1500}
+        >
+          <div className="glow-circle">
+            <img src={profile} alt="Methni Wanigarathna" />
+          </div>
+        </Tilt>
       </div>
     </section>
   );
