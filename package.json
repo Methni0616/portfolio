@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-parallax-mouse": "^2.1.0",
+    "vanilla-tilt": "^1.8.1"
+  }
+}
