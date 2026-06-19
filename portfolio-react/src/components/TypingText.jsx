@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 
 export default function TypingText() {
   const words = [
-    "Software Engineer",
+    "Software Engineering Undergraduate",
     "Full Stack Developer",
     "Flutter Developer",
     "AI Enthusiast",
-    "React Developer",
+    "Frontend Developer",
   ];
 
   const [text, setText] = useState("");
