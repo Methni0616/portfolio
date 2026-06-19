@@ -1,14 +1,31 @@
 import profile from "../assets/profile.jpg";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (
     <section className="hero">
       <div className="hero-left">
-        <h4>Hello, It's Me</h4>
-        <h1>Methni Manarandi</h1>
-        <h3>
+        <motion.h4
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          Hello, It's Me
+        </motion.h4>
+        <motion.h1
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          Methni Manarandi
+        </motion.h1>
+        <motion.h3
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
           And I'm a <span>Frontend Developer</span>
-        </h3>
+        </motion.h3>
 
         <p>
           As a Software Engineering undergraduate, I specialize in building
