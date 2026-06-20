@@ -7,13 +7,13 @@ function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-left">
-        <motion.h4
+        <motion.h2
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
           Hello, It's Me 👋
-        </motion.h4>
+        </motion.h2>
 
         <motion.h1
           initial={{ opacity: 0, y: -40 }}
