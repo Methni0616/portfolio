@@ -1,5 +1,5 @@
-import agrisense from "../assets/projects/agrisense.jpg";
-import auction from "../assets/projects/auction.webp";
+import agrisense from "../assets/projects/agrisense.png";
+import auction from "../assets/projects/auction.png";
 import petpal from "../assets/projects/petpal.png";
 import { motion } from "framer-motion";
 
